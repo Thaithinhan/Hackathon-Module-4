@@ -1,0 +1,50 @@
+form {
+  max-width: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 99%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#avatar_preview {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Tùy chỉnh cho phần form khi ở trạng thái active */
+.active-form {
+  border-color: green;
+}
+
+.active-form .btn-primary {
+  background-color: green;
+}
+
+.active-form .btn-primary:hover {
+  background-color: darkgreen;
+}
